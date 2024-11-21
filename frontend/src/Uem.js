@@ -25,7 +25,7 @@ function Uem() {
         } else {
           setErrorMessage('NUID incorreto.');
         }
-      } else if (biData && biData.NUID == nuid) {
+      } else if (biData && biData.nuid == nuid) {
         // Caso biData seja um objeto único
         navigate(`/docsEstudante/${nuid}`);
       } else {

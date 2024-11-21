@@ -35,7 +35,7 @@ function UsuarioCriado() {
         <div className='d-flex vh-100 bg-primary justify-content-center align-items-center'>
             <div className='bg-white rounded p-5'>
                 <h1>Utilizador Criado</h1>
-                <p><strong>Nome:</strong> {name.nome}</p>
+                
                 <p><strong>NUID:</strong> {nuid}</p>
                 <p><strong>Username:</strong> {user.username}</p>
                 <p><strong>Senha:</strong> {user.senha}</p>

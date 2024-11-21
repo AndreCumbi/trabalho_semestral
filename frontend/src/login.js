@@ -40,7 +40,7 @@ const Login = () => {
       try {
         // Fazer a requisição para obter o NUID
         const response = await axios.get(`http://localhost:8081/nd/${username}`);
-        const nuid = response.data.NUID;
+        const nuid = response.data.nuid;
   
         if (nuid) {
           // Redirecionar após obter o NUID
